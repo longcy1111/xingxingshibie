@@ -4,7 +4,7 @@ from fastai.vision.all import *
 
 # 获取当前文件所在的文件夹路径
 path = os.path.dirname(os.path.abspath(__file__))
-model_path = os.path.join(path, "export.pkl")
+model_path = os.path.join(path, "猩猩识别.pkl")
 
 # Load the model
 learn_inf = load_learner(model_path)
